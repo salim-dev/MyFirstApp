@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/wrapper_list_row_coffees_chocolates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/wrapper_list_row_sum_order">
+
+        <TextView
+            android:id="@+id/list_row_quantities_coffees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.53"
+            android:text="@string/label_list_row_coffees" />
+        <TextView
+            android:id="@+id/label_list_row_chocolates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.19"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_list_row_chocolates" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wrapper_list_row_chantilly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/wrapper_list_row_coffees_chocolates"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal"
+        android:layout_toStartOf="@+id/wrapper_list_row_sum_order">
+        <TextView
+            android:id="@+id/list_row_quantities_chantilly_coffees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.77"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.33"
+            android:text="@string/label_list_row_chantilly" />
+
+
+        <TextView
+            android:id="@+id/list_row_quantities_chantilly_chocolates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.22"
+            android:text="@string/label_list_row_chantilly" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wrapper_list_row_sum_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/wrapper_list_row_chantilly">
+
+        <TextView
+            android:id="@+id/list_row_sum_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/label_currency" />
+
+    </LinearLayout>
+</RelativeLayout>

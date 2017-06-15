@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">MyFirstApp</string>
+    <string name="label_hello" translatable="false">Hello</string>
+    <string name="label_coffees_quantities" translatable="false">Coffees quantities :</string>
+    <string name="label_chantilly_for_coffee">Chantilly : </string>
+    <string name="label_currency">€</string>
+    <string name="label_chantilly_for_chocolate">Chantilly : </string>
+    <string name="btn_order">ORDER</string>
+    <string name="label_sum_order">TOTAL</string>
+    <string name="label_chocolates_quantities">Chocolates quantities : </string>
+    <string name="action_save">save</string>
+    <string name="action_import">import</string>
+    <string name="action_empty">table empty</string>
+    <string name="label_list_row_coffees">Coffee(s)</string>
+    <string name="label_list_row_chantilly">Chantilly</string>
+    <string name="label_list_row_chocolates">Chocolate(s)</string>
+</resources>
